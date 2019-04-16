@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Tornike Razmadze</title>
+    <link>http://torniker.github.io/me/tags/</link>
+    <description>Recent content in Tags on Tornike Razmadze</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 06 May 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://torniker.github.io/me/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>coursera</title>
+      <link>http://torniker.github.io/me/tags/coursera/</link>
+      <pubDate>Fri, 06 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://torniker.github.io/me/tags/coursera/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>machine learngin</title>
+      <link>http://torniker.github.io/me/tags/machine-learngin/</link>
+      <pubDate>Fri, 06 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://torniker.github.io/me/tags/machine-learngin/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

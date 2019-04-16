@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>machine learngin on Tornike Razmadze</title>
+    <link>http://torniker.github.io/me/tags/machine-learngin/</link>
+    <description>Recent content in machine learngin on Tornike Razmadze</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 06 May 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://torniker.github.io/me/tags/machine-learngin/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Machine Learning (Coursera)</title>
+      <link>http://torniker.github.io/me/posts/machine-learning/</link>
+      <pubDate>Fri, 06 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://torniker.github.io/me/posts/machine-learning/</guid>
+      <description>Recently I&amp;rsquo;ve started (again) a course of Machine Learning on Coursera. These are some notes about the course.
+Machine Learning problems can be seperated into two major parts: Supervised and Unsupervised machine learning.
+Supervised machine learning is when we have some right answers for some amount of inputs and want to predict right anwsers for different inputs.
+In Unsupervised machine learning programs we does not have any right anwsers it makes clastering of data.</description>
+    </item>
+    
+  </channel>
+</rss>
