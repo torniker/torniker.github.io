@@ -3,51 +3,51 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://torniker.github.io/me/posts/machine-learning/</loc>
+    <loc>http://torniker.github.io/posts/machine-learning/</loc>
     <lastmod>2016-05-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://torniker.github.io/me/posts/</loc>
-    <lastmod>2016-05-06T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://torniker.github.io/me/tags/</loc>
+    <loc>http://torniker.github.io/posts/</loc>
     <lastmod>2016-05-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://torniker.github.io/me/</loc>
+    <loc>http://torniker.github.io/tags/</loc>
     <lastmod>2016-05-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://torniker.github.io/me/tags/coursera/</loc>
+    <loc>http://torniker.github.io/</loc>
     <lastmod>2016-05-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://torniker.github.io/me/tags/machine-learngin/</loc>
+    <loc>http://torniker.github.io/tags/coursera/</loc>
     <lastmod>2016-05-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://torniker.github.io/me/about/</loc>
-  </url>
-  
-  <url>
-    <loc>http://torniker.github.io/me/categories/</loc>
+    <loc>http://torniker.github.io/tags/machine-learngin/</loc>
+    <lastmod>2016-05-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://torniker.github.io/me/projects/</loc>
+    <loc>http://torniker.github.io/about/</loc>
+  </url>
+  
+  <url>
+    <loc>http://torniker.github.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://torniker.github.io/projects/</loc>
   </url>
   
 </urlset>
