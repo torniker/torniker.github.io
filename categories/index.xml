@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Tornike Razmadze</title>
-    <link>https://torniker.github.io/categories/</link>
+    <link>https://tornike.me/categories/</link>
     <description>Recent content in Categories on Tornike Razmadze</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
-	<atom:link href="https://torniker.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://tornike.me/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
