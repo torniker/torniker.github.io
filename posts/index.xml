@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Tornike Razmadze</title>
-    <link>http://torniker.github.io/posts/</link>
+    <link>https://torniker.github.io/posts/</link>
     <description>Recent content in Posts on Tornike Razmadze</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 06 May 2016 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://torniker.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://torniker.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Machine Learning (Coursera)</title>
-      <link>http://torniker.github.io/posts/machine-learning/</link>
+      <link>https://torniker.github.io/posts/machine-learning/</link>
       <pubDate>Fri, 06 May 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://torniker.github.io/posts/machine-learning/</guid>
+      <guid>https://torniker.github.io/posts/machine-learning/</guid>
       <description>Recently I&amp;rsquo;ve started (again) a course of Machine Learning on Coursera. These are some notes about the course.
 Machine Learning problems can be seperated into two major parts: Supervised and Unsupervised machine learning.
 Supervised machine learning is when we have some right answers for some amount of inputs and want to predict right anwsers for different inputs.
