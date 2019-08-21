@@ -1,12 +1,12 @@
 /* @import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Mono'); */
 h1, h2, h3, h4 {
     /* font-family: 'Ubuntu Mono', monospace; */
-    /* font-family: 'Fira Mono', monospace; */
+    font-family: 'Fira Mono', monospace;
     /* font-family: 'Nova Mono', monospace; */
     /* font-family: 'B612 Mono', monospace; */
     /* font-family: 'Dancing Script', cursive; */
     text-transform: capitalize;
-    font-family: 'Ubuntu Mono', monospace;
+    color: #454545;
 }
 body {
     font-family: 'Ubuntu Mono', monospace;
