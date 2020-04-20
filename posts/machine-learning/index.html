@@ -16,10 +16,10 @@
     <meta property="og:description" content="">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://tornike.me/posts/machine-learning/">
-    <meta property="og:image" content="https://tornike.me/">
+    <meta property="og:image" content="https://tornike.me/images/avatar.jpg">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="https://tornike.me/posts/machine-learning/">
-    <meta name="twitter:image" content="https://tornike.me/">
+    <meta name="twitter:image" content="https://tornike.me/images/avatar.jpg">
 
     <base href="https://tornike.me/posts/machine-learning/">
     <title>
@@ -48,7 +48,7 @@
       <link href="https://tornike.me/index.xml" rel="feed" type="application/rss+xml" title="Tornike Razmadze" />
     
 
-    <meta name="generator" content="Hugo 0.55.2" />
+    <meta name="generator" content="Hugo 0.68.3" />
   </head>
 
   <body class="">
@@ -93,24 +93,14 @@
       
     </header>
 
-    
-
-<p>Recently I&rsquo;ve started (again) a course of <a href="https://www.coursera.org/learn/machine-learning/">Machine Learning on Coursera</a>. These are some notes about the course.</p>
-
+    <p>Recently I&rsquo;ve started (again) a course of <a href="https://www.coursera.org/learn/machine-learning/">Machine Learning on Coursera</a>. These are some notes about the course.</p>
 <p>Machine Learning problems can be seperated into two major parts: Supervised and Unsupervised machine learning.</p>
-
 <p>Supervised machine learning is when we have some right answers for some amount of inputs and want to predict right anwsers for different inputs.</p>
-
 <p>In Unsupervised machine learning programs we does not have any right anwsers it makes clastering of data.</p>
-
 <p>To understand them better, here are some examples.</p>
-
 <h2 id="supervised-machine-learning-example">Supervised Machine Learning Example</h2>
-
 <h3 id="regression-problem">Regression Problem</h3>
-
 <p>Let&rsquo;s say we want to predict housing prices. And we have some data about the prices of houses and what was the total area of each house.</p>
-
 <table>
 <thead>
 <tr>
@@ -118,104 +108,79 @@
 <th align="center">Price in USD (y)</th>
 </tr>
 </thead>
-
 <tbody>
 <tr>
 <td align="center">70</td>
 <td align="center">80000</td>
 </tr>
-
 <tr>
 <td align="center">75</td>
 <td align="center">88000</td>
 </tr>
-
 <tr>
 <td align="center">80</td>
 <td align="center">95000</td>
 </tr>
-
 <tr>
 <td align="center">90</td>
 <td align="center">101000</td>
 </tr>
-
 <tr>
 <td align="center">96</td>
 <td align="center">104000</td>
 </tr>
-
 <tr>
 <td align="center">100</td>
 <td align="center">106000</td>
 </tr>
-
 <tr>
 <td align="center">105</td>
 <td align="center">107000</td>
 </tr>
-
 <tr>
 <td align="center">110</td>
 <td align="center">108000</td>
 </tr>
-
 <tr>
 <td align="center">115</td>
 <td align="center">110000</td>
 </tr>
-
 <tr>
 <td align="center">123</td>
 <td align="center">112000</td>
 </tr>
-
 <tr>
 <td align="center">126</td>
 <td align="center">111000</td>
 </tr>
-
 <tr>
 <td align="center">132</td>
 <td align="center">114000</td>
 </tr>
-
 <tr>
 <td align="center">138</td>
 <td align="center">116000</td>
 </tr>
-
 <tr>
 <td align="center">142</td>
 <td align="center">116500</td>
 </tr>
 </tbody>
 </table>
-
-<p>Lets plot the dataset, on the horizontal (x) axis we will have area of the house and the vertical (y) axis will be the price.
-<iframe width="100%" height="371" seamless frameborder="0" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQwtGAKD8kGDtF5YPVoLjvIjUe7FjzDMRnJ99bcq1Vxj_3JAOjjQ-Nlxexuvx4FjWFKOH6OHGKUOotQ/pubchart?oid=942513605&amp;format=interactive"></iframe></p>
-
+<p>Lets plot the dataset, on the horizontal (x) axis we will have area of the house and the vertical (y) axis will be the price.</p>
+<!-- raw HTML omitted -->
 <p>Now we need to come up with a function that takes area and tells us the predicted price.</p>
-
 <p>Let&rsquo;s say x - is the area of the house and y is the price from the dataset.</p>
-
 <p>So we need to come up with a differentiable function h(x) that gives us minimum of following (h(x)-y)2 (Squared error function). The function can be linear, quadratic, cubic, logaritmic etc. For example lets say we want to find a linear function that best fits our dataset.
 General representation of linear function would be: h(x) = Θ0 + Θ1x. So we need to choose Θ0 and Θ1 that gives us the closest results to y.</p>
-
 <h4 id="summary">Summary:</h4>
-
 <p>Hypothesis: hΘ(x) = Θ0 + Θ1x
 Cost Function: J(Θ0, Θ1) = 1 / 2m Σ(hΘ(xi) - yi)2 where i changes from 1 to m where m is a number of training examples
 Goal: minimize J(Θ0, Θ1)</p>
-
 <p>Later we will discuss algorithms that helps us to reach the goal. now let&rsquo;s discribe another example of supervised machine learning</p>
-
 <h2 id="classification">Classification</h2>
-
 <p>In this case we have finite number of &lsquo;y&rsquo;s or h(x) can give us only finite number of results. Let&rsquo;s say we want to predict cancer for patients, is it malignant or benign. Similar machine learning problem would be defining a letter is a spam or not.</p>
-
 <p>So our data can be something like this:</p>
-
 <table>
 <thead>
 <tr>
@@ -224,128 +189,107 @@ Goal: minimize J(Θ0, Θ1)</p>
 <th align="center">Malignant or Benign</th>
 </tr>
 </thead>
-
 <tbody>
 <tr>
 <td align="center">1</td>
 <td align="center">10</td>
 <td align="center">Benign</td>
 </tr>
-
 <tr>
 <td align="center">2</td>
 <td align="center">30</td>
 <td align="center">Benign</td>
 </tr>
-
 <tr>
 <td align="center">3</td>
 <td align="center">23</td>
 <td align="center">Benign</td>
 </tr>
-
 <tr>
 <td align="center">4</td>
 <td align="center">33</td>
 <td align="center">Benign</td>
 </tr>
-
 <tr>
 <td align="center">5</td>
 <td align="center">15</td>
 <td align="center">Benign</td>
 </tr>
-
 <tr>
 <td align="center">5</td>
 <td align="center">31</td>
 <td align="center">Benign</td>
 </tr>
-
 <tr>
 <td align="center">6</td>
 <td align="center">45</td>
 <td align="center">Benign</td>
 </tr>
-
 <tr>
 <td align="center">6</td>
 <td align="center">53</td>
 <td align="center">Malignant</td>
 </tr>
-
 <tr>
 <td align="center">7</td>
 <td align="center">35</td>
 <td align="center">Benign</td>
 </tr>
-
 <tr>
 <td align="center">7</td>
 <td align="center">60</td>
 <td align="center">Benign</td>
 </tr>
-
 <tr>
 <td align="center">8</td>
 <td align="center">29</td>
 <td align="center">Benign</td>
 </tr>
-
 <tr>
 <td align="center">9</td>
 <td align="center">48</td>
 <td align="center">Malignant</td>
 </tr>
-
 <tr>
 <td align="center">1</td>
 <td align="center">53</td>
 <td align="center">Malignant</td>
 </tr>
-
 <tr>
 <td align="center">1</td>
 <td align="center">25</td>
 <td align="center">Malignant</td>
 </tr>
-
 <tr>
 <td align="center">1</td>
 <td align="center">30</td>
 <td align="center">Benign</td>
 </tr>
-
 <tr>
 <td align="center">1</td>
 <td align="center">55</td>
 <td align="center">Malignant</td>
 </tr>
-
 <tr>
 <td align="center">1</td>
 <td align="center">62</td>
 <td align="center">Malignant</td>
 </tr>
-
 <tr>
 <td align="center">1</td>
 <td align="center">65</td>
 <td align="center">Malignant</td>
 </tr>
-
 <tr>
 <td align="center">1</td>
 <td align="center">54</td>
 <td align="center">Malignant</td>
 </tr>
-
 <tr>
 <td align="center">1</td>
 <td align="center">54</td>
 <td align="center">Malignant</td>
 </tr>
-
 <tr>
 <td align="center">1</td>
 <td align="center">63</td>
@@ -353,27 +297,16 @@ Goal: minimize J(Θ0, Θ1)</p>
 </tr>
 </tbody>
 </table>
-
-<iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQAxy7ItDT1IylUbk4cnHOS4M3uu7IytRw5Z_ed_M3MUz1jAjnvWPiJCk0dROVsJakaEeH3gZAHHnoG/pubchart?oid=1029865512&amp;format=interactive"></iframe>
-
+<!-- raw HTML omitted -->
 <p>In this case the task is to find a function that seperates red and blue dots from each other. the function will seperate whole surface into two parts. The area with the most red dots in it will be benign part and the other part of the surface would be malignant.</p>
-
 <p>In these examples there are used one or two of features to predict something, but in real world examples there will be lots of features that should be considered to before we the prediction. If you understand how this works with one or two features it is not hard apply that knowledge for multiple features. Later I will try to describe how to do this.</p>
-
 <h2 id="unsupervised-machine-learning-example">Unsupervised Machine Learning Example</h2>
-
 <h3 id="clastering">Clastering</h3>
-
 <p>In supervised machine learning we were given a data with some labels, for example we had data of tumor were we knew which row was malignant or benign, in unsupervised machine learning data does not have any labels. So we are given a dataset with no labels and we need to find some structure in the dataset. These kind of problems are called clastering problems.</p>
-
 <p>Good example of the clastering problem would be a google news. What google news does it finds lots of articles on the web, finds similaries / structure in those articles and groups them by the subject.</p>
-
 <p>Other examples of unsupervised learning or clastering can be, Market segmentation or astronomical data analysis etc.</p>
-
 <p>Lets visualize the problem to better understand what we are talking about.</p>
-
-<iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQAxy7ItDT1IylUbk4cnHOS4M3uu7IytRw5Z_ed_M3MUz1jAjnvWPiJCk0dROVsJakaEeH3gZAHHnoG/pubchart?oid=1626164497&amp;format=interactive"></iframe>
-
+<!-- raw HTML omitted -->
 <p>So we have same data as in tumor problem, only without labels. And we need to find the groups of data that can be seperated.</p>
 
   </article>
