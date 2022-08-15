@@ -1,0 +1,80 @@
+baseURL = "https://tornike.me/"
+languageCode = "en-us"
+title = "Tornike Razmadze"
+theme = "coder-portfolio"
+googleAnalytics = "UA-4951070-18"
+
+[params]
+    author = "Tornike Razmadze"
+    description = "Software Architect, Engineer, Developer, Go (golang) enthusiast"
+    keywords = "blog,developer,personal,gopher,software,engineer,go,golang"
+    info = "Software Architect, Engineer, Developer, Go (golang) enthusiast"
+    avatarurl = "images/avatar.jpg"
+    footercontent = "Enter a text here."
+    # fixedbarContent = "Do you want to know me more private?→"
+    # fixedbarContentAfter = "Thank You! Please share it if you like it→"
+
+    hideCredits = false
+    hideCopyright = false
+
+    snsShare = false
+
+    thumbnail = "images/avatar.jpg"
+
+    # Custom CSS
+    custom_css = ["https://fonts.googleapis.com/css?family=B612+Mono|Dancing+Script|Fira+Mono|Nova+Mono|Ubuntu+Mono", "css/custom.css"]
+
+    # Alignment of Mobile Menu items
+    itemscentered = true
+
+    # RTL support
+    rtl = false
+
+    langseparator = "|"
+
+[[params.social]]
+    name = "Github"
+    weight = 1
+    url = "https://github.com/torniker/"
+[[params.social]]
+    name = "Twitter"
+    weight = 2
+    url = "https://twitter.com/torniker/"
+[[params.social]]
+    name = "LinkedIn"
+    weight = 3
+    url = "https://www.linkedin.com/in/torniker/"
+
+
+
+[languages]
+    [languages.en]
+        languagecode = "en"
+        languagename = "English" # The language name to be displayed in the selector.
+        title = "Tornike Razmadze"
+
+        # You can configure the theme parameter for each language.
+        [languages.en.params]
+            author = "Tornike Razmadze"
+            description = "Software Achitect, Engineer, Developer, Go (golang) enthusiast"
+            keywords = "blog,developer,personal,gopher,software,engineer,go,golang"
+            info = "Software Engineer - Gopher"
+            avatarurl = "images/avatar.jpg"
+
+        [languages.en.menu] # It is possible to change the menu too.
+
+            [[languages.en.menu.main]]
+                name = "About"
+                weight = 1.0
+                url = "about"
+
+            [[languages.en.menu.main]]
+                name = "Blog"
+                weight = 2.0
+                url = "posts"
+
+            [[languages.en.menu.main]]
+                name = "Projects"
+                weight = 3
+                url = "projects"
+

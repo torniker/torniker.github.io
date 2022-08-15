@@ -1,0 +1,56 @@
+/* @import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Mono'); */
+h1,
+h2,
+h3,
+h4 {
+    /* font-family: 'Ubuntu Mono', monospace; */
+    font-family: 'Fira Mono', monospace;
+    /* font-family: 'Nova Mono', monospace; */
+    /* font-family: 'B612 Mono', monospace; */
+    /* font-family: 'Dancing Script', cursive; */
+    text-transform: capitalize;
+    color: #2196f3;
+}
+
+body {
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+blockquote {
+    font-style: normal !important;
+}
+
+a,
+p a {
+    font-weight: normal;
+    font-family: 'Ubuntu Mono', monospace;
+    transition: none;
+    color: #2196f3;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.75;
+}
+
+.navigation a {
+    text-transform: capitalize;
+    letter-spacing: .2rem;
+}
+
+a:before,
+a:after {
+    height: 0;
+}
+
+.navigation a:before,
+.navigation a:after {
+    height: 1px;
+    background: #2196f3;
+    transition: 0.2s;
+    bottom: -5px;
+}
+
+p {
+    /* font-family: 'Ubuntu Mono', monospace; */
+}
