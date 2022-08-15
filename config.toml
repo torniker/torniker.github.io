@@ -4,6 +4,7 @@ title = "Tornike Razmadze"
 theme = "coder-portfolio"
 googleAnalytics = "UA-4951070-18"
 
+# deploy
 [params]
     author = "Tornike Razmadze"
     description = "Software Architect, Engineer, Developer, Go (golang) enthusiast"
