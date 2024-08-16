@@ -1,0 +1,21 @@
+@font-face {
+    font-family: OperatorMonoItalic;
+    src: url("fonts/OperatorMonoLig-BookItalic.otf");
+}
+
+@font-face {
+    font-family: OperatorMonoRegular;
+    src: url("fonts/OperatorMonoLig-Book.otf");
+}
+
+html,
+body {
+    font-family: OperatorMonoRegular;
+}
+
+.font-regular {
+    font-family: OperatorMonoRegular;
+}
+.font-italic {
+    font-family: OperatorMonoItalic;
+}
